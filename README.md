@@ -99,16 +99,56 @@ Current work focuses on designing a **novel CNN architecture** that:
 
 ## References
 
-[1] A. Prabhu et al., *ProsGradNet: An effective and structured CNN approach for prostate cancer grading from histopathology images*, Biomedical Signal Processing and Control, 2025.  
+## References
 
-[2] A.K. Chanchal et al., *RCCGNet: Deep learning framework for renal cell carcinoma classification*, Scientific Reports, 2023.  
+[1] A. Prabhu, S. Nedungatt, S. Lal, J. Kini,  
+*ProsGradNet: An effective and structured CNN approach for prostate cancer grading from histopathology images*,  
+Biomedical Signal Processing and Control, 105, 107626, 2025.  
+https://doi.org/10.1016/j.bspc.2025.107626  
 
-[3] T. Tuncer et al., *TurkerNet: Lightweight CNN for cancer image classification*, Applied Soft Computing, 2024.  
+[2] A.K. Chanchal, S. Lal, R. Kumar, J.T. Kwak, J. Kini,  
+*A novel dataset and efficient deep learning framework for automated grading of renal cell carcinoma from kidney histopathology images*,  
+Scientific Reports, 13(1), 2023.  
+https://www.nature.com/articles/s41598-023-31275-7  
 
-[4] A.A. Aatresh et al., *LiverNet: Deep learning model for liver cancer classification*, IJCARS, 2021.  
+[3] T. Tuncer, P.D. Barua, I. Tuncer, S. Dogan, U.R. Acharya,  
+*A lightweight deep convolutional neural network model for skin cancer image classification*,  
+Applied Soft Computing, 2024.  
+https://doi.org/10.1016/j.asoc.2024.11179  
 
-[5] K. Simonyan, A. Zisserman, *Very Deep Convolutional Networks for Large-Scale Image Recognition (VGG16)*, ICLR, 2015.  
+[4] A.A. Aatresh, K. Alabhya, S. Lal, J. Kini, P.P. Saxena,  
+*LiverNet: Efficient and robust deep learning model for automatic diagnosis of sub-types of liver hepatocellular carcinoma from H&E stained histopathology images*,  
+International Journal of Computer Assisted Radiology and Surgery, 16, 1549–1563, 2021.  
+https://doi.org/10.1007/s11548-021-02410-4  
 
-[6] K. He et al., *Deep Residual Learning for Image Recognition (ResNet)*, CVPR, 2016.  
+[5] Y. Jiang, L. Chen, H. Zhang, X. Xiao,  
+*Breast cancer histopathological image classification using convolutional neural networks with small SE-ResNet module*,  
+PLoS ONE, 14(3), e0214587, 2019.  
+https://doi.org/10.1371/journal.pone.0214587  
 
-[7] C. Szegedy et al., *Going Deeper with Convolutions (GoogLeNet)*, CVPR, 2015.  
+[6] C. Xu, K. Yi, N. Jiang, X. Li, M. Zhong, Y. Zhang,  
+*MDFF-Net: A multi-dimensional feature fusion network for breast histopathology image classification*,  
+Computers in Biology and Medicine, 165, 107385, 2023.  
+https://doi.org/10.1016/j.compbiomed.2023.107385  
+
+[7] K. Simonyan, A. Zisserman,  
+*Very Deep Convolutional Networks for Large-Scale Image Recognition*,  
+arXiv:1409.1556, 2015.  
+https://arxiv.org/abs/1409.1556  
+
+[8] K. He, X. Zhang, S. Ren, J. Sun,  
+*Deep Residual Learning for Image Recognition*,  
+arXiv:1512.03385, 2015.  
+https://arxiv.org/abs/1512.03385  
+
+[9] C. Szegedy et al.,  
+*Going Deeper with Convolutions*,  
+arXiv:1409.4842, 2014.  
+https://arxiv.org/abs/1409.4842  
+
+[10] DRDANet — citation to be added  
+
+[11] W. Bulten et al.,  
+*Artificial intelligence for diagnosis and Gleason grading of prostate cancer: the PANDA challenge*,  
+Nature Medicine, 28(1), 154–163, 2022.  
+https://www.nature.com/articles/s41591-021-01620-2  
