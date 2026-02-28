@@ -29,15 +29,38 @@ The following architectures were implemented and trained:
 
 ## Datasets
 
-- **Colon Cancer Histopathology Dataset**  
-  *(add dataset link)*  
+We evaluate all models on publicly available histopathological tissue datasets for **colorectal** and **prostate** cancer classification obtained from the DAX-Net repository:  
+https://github.com/QuIIL/DAX-Net  
 
-- **Prostate Cancer Histopathology Dataset**  
-  *(add dataset link)*  
+### Colorectal Tissue Dataset
+The colorectal dataset consists of histopathology tissue patches extracted from whole-slide images (WSIs) and tissue microarrays (TMAs) collected between 2006–2017 from multiple patients.  
 
-Reference dataset used in ProsGradNet study:  
-- Prostate Gleason dataset (PANDA) [[11]](https://www.nature.com/articles/s41591-021-01620-2)  
-  https://github.com/shyamfec/ProsGradNet  
+- Training set (CT_train): 7,033 images (1024×1024)  
+- Validation set (CV_validation): 1,242 images (1024×1024)  
+- Test set-I (CT_test-I): 1,588 images (1024×1024)  
+- Test set-II (CT_test-II): 110,170 images (1144×1144)  
+
+All images are digitized at 40× magnification and annotated by pathologists into four tissue classes:  
+
+- Benign (BN)  
+- Well-differentiated tumor (WD)  
+- Moderately differentiated tumor (MD)  
+- Poorly differentiated tumor (PD)  
+
+---
+
+### Prostate Tissue Dataset
+The prostate dataset aggregates three public cohorts from Harvard Dataverse, Gleason2019, and AGGC2022 challenges, comprising histopathology tissue patches extracted from TMAs and WSIs.
+
+- PT_train / PT_validation / PT_test-I: 22,022 images (750×750) from 886 patients  
+- PT_test-II: 17,066 images (690×690) from Gleason2019 cores  
+- PT_test-III: 277,203 images (512×512) from AGGC2022 WSIs  
+
+Images were acquired at 20×–40× magnification using multiple scanners (Aperio, NanoZoomer, Philips, Zeiss, Olympus, KFBio, Akoya), ensuring cross-scanner variability.
+
+---
+
+These datasets provide diverse histopathological appearances and acquisition conditions, enabling robust evaluation of CNN-based cancer classification models.
 
 ---
 
