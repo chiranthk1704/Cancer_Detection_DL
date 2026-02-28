@@ -97,7 +97,6 @@ Current work focuses on designing a **novel CNN architecture** that:
 
 ---
 
-## References
 
 ## References
 
