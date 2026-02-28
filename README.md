@@ -5,25 +5,25 @@ This repository contains implementations and experimental evaluations of multipl
 
 Several established CNN models (e.g., VGG16, ResNet50, RCCGNet, TurkerNet, ProsGradNet) were trained and benchmarked under a unified pipeline.  
 
-The goal of this work is to develop a **proposed lightweight CNN model** that outperforms state-of-the-art architectures — particularly **ProsGradNet** [1] and **DRDANet** — on both colon and prostate cancer classification tasks.
+The goal of this work is to develop a **proposed lightweight CNN model** that outperforms state-of-the-art architectures — particularly **ProsGradNet** [[1]](https://doi.org/10.1016/j.bspc.2025.107626) and **DRDANet** — on both colon and prostate cancer classification tasks.
 
-ProsGradNet introduces the **Context Guided Shared Channel Residual (CGSCR) block**, which improves feature representation by structured channel grouping and contextual attention, leading to superior histopathology classification performance [1].
+ProsGradNet introduces the **Context Guided Shared Channel Residual (CGSCR) block**, which improves feature representation by structured channel grouping and contextual attention, leading to superior histopathology classification performance [[1]](https://doi.org/10.1016/j.bspc.2025.107626).
 
 ---
 
 ## Implemented Models
 The following architectures were implemented and trained:
 
-- VGG16 [5]  
-- ResNet50 [6]  
-- GoogLeNet (Inception) [7]  
-- RCCGNet [2]  
-- LiverNet [4]  
-- BCHNet  
+- VGG16 [[7]](https://arxiv.org/abs/1409.1556)  
+- ResNet50 [[8]](https://arxiv.org/abs/1512.03385)  
+- GoogLeNet (Inception) [[9]](https://arxiv.org/abs/1409.4842)  
+- RCCGNet [[2]](https://www.nature.com/articles/s41598-023-31275-7)  
+- LiverNet [[4]](https://doi.org/10.1007/s11548-021-02410-4)  
+- BCHNet [[5]](https://doi.org/10.1371/journal.pone.0214587)  
 - DRDANet  
-- MDFF  
-- TurkerNet [3]  
-- ProsGradNet [1]  
+- MDFF [[6]](https://doi.org/10.1016/j.compbiomed.2023.107385)  
+- TurkerNet [[3]](https://doi.org/10.1016/j.asoc.2024.11179)  
+- ProsGradNet [[1]](https://doi.org/10.1016/j.bspc.2025.107626)  
 
 ---
 
@@ -36,7 +36,7 @@ The following architectures were implemented and trained:
   *(add dataset link)*  
 
 Reference dataset used in ProsGradNet study:  
-- Prostate Gleason dataset (PANDA) [1]  
+- Prostate Gleason dataset (PANDA) [[11]](https://www.nature.com/articles/s41591-021-01620-2)  
   https://github.com/shyamfec/ProsGradNet  
 
 ---
@@ -66,7 +66,7 @@ Model performance is evaluated using:
 | DRDANet      | 0.8886 | 0.8722 | 0.8680 | 0.8771 |
 | MDFF         | 0.7314 | 0.6824 | 0.7003 | 0.6758 |
 | TurkerNet    | 0.8360 | 0.8148 | 0.8089 | 0.8241 |
-| **ProsGradeNet** | **0.9149** | **0.9172** | **0.9185** | **0.9164** |
+| **ProsGradNet** | **0.9149** | **0.9172** | **0.9185** | **0.9164** |
 
 ---
 
@@ -83,7 +83,7 @@ Model performance is evaluated using:
 | **DRDANet**  | **0.9240** | **0.9242** | **0.9250** | **0.9240** |
 | MDFF         | 0.7625 | 0.7636 | 0.7687 | 0.7632 |
 | TurkerNet    | 0.9015 | 0.9015 | 0.9018 | 0.9019 |
-| ProsGradeNet | 0.9143 | 0.9163 | 0.9166 | 0.9161 |
+| ProsGradNet  | 0.9143 | 0.9163 | 0.9166 | 0.9161 |
 
 ---
 
@@ -97,6 +97,7 @@ Current work focuses on designing a **novel CNN architecture** that:
 
 ---
 
+## References
 
 ## References
 
@@ -140,14 +141,16 @@ https://arxiv.org/abs/1409.1556
 arXiv:1512.03385, 2015.  
 https://arxiv.org/abs/1512.03385  
 
-[9] C. Szegedy et al.,  
+[9] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov,  
+D. Erhan, V. Vanhoucke, A. Rabinovich,  
 *Going Deeper with Convolutions*,  
 arXiv:1409.4842, 2014.  
 https://arxiv.org/abs/1409.4842  
 
 [10] DRDANet — citation to be added  
 
-[11] W. Bulten et al.,  
+[11] W. Bulten, K. Kartasalo, P.H.C. Chen, P. Ström, H. Pinckaers,  
+K. Nagpal, Y. Cai, D.F. Steiner, H. van Boven, R. Vink, et al.,  
 *Artificial intelligence for diagnosis and Gleason grading of prostate cancer: the PANDA challenge*,  
 Nature Medicine, 28(1), 154–163, 2022.  
 https://www.nature.com/articles/s41591-021-01620-2  
